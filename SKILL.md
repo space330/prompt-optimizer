@@ -21,7 +21,7 @@ description: "Interactively optimizes and professionalizes any user prompt for A
 3. **If the input is vague, short, or missing context**:
    - Ask 2–4 gentle, targeted clarifying questions (one message, grouped logically):
      - What is the main goal or task this prompt should achieve?
-     - Who is the target audience or which AI/model will use it (ChatGPT, Claude, Grok, Midjourney, Flux, etc.)?
+     - Who is the target audience or which AI/model will use it (ChatGPT, Claude, Gemini, Llama, Midjourney, Flux, SD3, etc.)?
      - Desired tone, style, length, or special requirements (formal, creative, concise, detailed, JSON output, etc.)?
      - Any constraints, examples, or "must include / avoid" elements?
      - Success criteria: How will you know the output is perfect?

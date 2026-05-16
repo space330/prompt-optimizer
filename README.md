@@ -1,20 +1,20 @@
 # prompt-optimizer
 
-**用户中心的交互式提示词优化技能** | User-Centered Interactive Prompt Optimizer for Grok
+**用户中心的交互式提示词优化技能** | User-Centered Interactive Prompt Optimizer Skill
 
-一个专为 Grok 设计的提示词优化专家技能，能通过实时对话、专业化调整，帮助用户将任何原始提示词打磨成高质量、专业级的提示词。
+一个支持**所有主流 AI 模型**的提示词优化专家技能，能通过实时对话、专业化调整，帮助用户将任何原始提示词打磨成高质量、专业级的提示词。
 
 ## ✨ 核心特性
 
-- **完全以用户为中心** ：每一步都先询问你的需求和想法，再根据反馈实时调整
-- **专业提示词工程** ：自动应用 Chain-of-Thought、角色设定、结构化输出、Few-shot 等先进技巧
-- **多语言支持** ：完美支持中文和英文输入，回复语言与你一致
-- **实时迭代优化** ：提出优化版本后立即询问反馈，不断改进直到你满意为止
-- **适用场景** ：LLM 提示词、图像生成（Midjourney/Flux/SD）、编程、创意写作、数据分析等
+- **完全以用户为中心**：每一步都先询问你的需求和想法，再根据反馈实时调整
+- **专业提示词工程**：自动应用 Chain-of-Thought、角色设定、结构化输出、Few-shot 等先进技巧
+- **多语言支持**：完美支持中文和英文输入，回复语言与你一致
+- **实时迭代优化**：提出优化版本后立即询问反馈，不断改进直到你满意为止
+- **适用场景**：支持 ChatGPT、Claude、Gemini、Llama、Midjourney、Flux、SD3 等所有主流 AI 模型的提示词优化
 
 ## 🚀 如何使用
 
-1. 在 Grok 中直接说：
+1. 在支持自定义技能的 AI 平台中直接说：
    - 「帮我优化这个提示词」
    - 「optimize this prompt」
    - 「提示词优化」
@@ -29,16 +29,16 @@
 
 ## 📦 安装方法（自定义技能）
 
-将 `SKILL.md` 文件复制到你的 Grok 技能目录：
+将 `SKILL.md` 文件复制到你的 AI 技能目录：
 ```bash
 ~/.grok/skills/prompt-optimizer/SKILL.md
 ```
 
-（具体路径以你的 Grok 环境为准）
+（具体路径以你的 AI 环境为准）
 
 ## 📝 示例
 
-**原始提示** ：写一篇关于 AI 的文章
+**原始提示**：写一篇关于 AI 的文章
 
 **优化后提示**（部分）：
 ```
@@ -53,5 +53,5 @@
 
 ---
 
-**Repo for the prompt-optimizer skill created with Grok.**
+**Repo for the prompt-optimizer skill.**
 **Created on 2026-05-16**
